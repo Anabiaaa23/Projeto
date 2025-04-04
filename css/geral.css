@@ -1,7 +1,40 @@
 #corpo {
-background-color: rgba(255, 255, 255, 0.575);
-border: 5px solid black;
-width: 600px;
-margin: 0 auto;
-padding: 0 200px 1000px 200px;
+border: 3px solid black;
+#corpo{
+width: auto;
+height: auto;
+}
+#topo{
+border: 3px solid red;
+width: auto;
+height: 100px;
+}
+#conteudo {
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+#centro{
+border: 3px solid rgb(40, 148, 211);
+width: 1000px;
+height: 750px;
+
+}
+#direita{
+border: 3px solid rgb(206, 101, 31);
+width: 450px;
+height: 750px;
+
+
+}
+#esquerda{
+border: 3px solid rgb(204, 28, 166);
+width: 450px;
+height: 750px;
+
+}
+#rodape{
+border: 3px solid rgb(70, 16, 172);
+width: auto;
+height: 50px;
 }
